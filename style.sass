@@ -200,27 +200,53 @@ html, body
   grid-gap: 18px
   justify-content: center
 
-.main_picture
-  &_1
+.product_1
+   position: relative
    grid-row-start: 1
    grid-row-end: 3
    grid-column-start: 1
    grid-column-end: 2
-  &_2
-   grid-row-start: 1
-   grid-row-end: 1
-   grid-column-start: 2
-   grid-column-end: 4
-  &_3
-   grid-row-start: 1
-   grid-column-start: 4
-  &_4
-   grid-row-start: 2
-   grid-column-start: 2
-  &_5
+.product_5
+   position: relative
    grid-row-start: 2
    grid-column-start: 3
    grid-column-end: 5
+.product_2
+  position: relative
+  grid-row-start: 1
+  grid-row-end: 1
+  grid-column-start: 2
+  grid-column-end: 4
+.product_3
+  position: relative
+  grid-row-start: 1
+  grid-column-start: 4
+.product_4
+  position: relative
+  grid-row-start: 2
+  grid-column-start: 2
+
+.product_1:hover .main_picture_1
+  filter: brightness(50%)
+.product_5:hover .main_picture_5
+  filter: brightness(50%)
+.product_2:hover .main_picture_2
+  filter: brightness(50%)
+.product_3:hover .main_picture_3
+  filter: brightness(50%)
+.product_4:hover .main_picture_4
+  filter: brightness(50%)
+
+.product_1:hover .button_see_product_1
+  display: block
+.product_5:hover .button_see_product_5
+  display: block
+.product_2:hover .button_see_product_2
+  display: block
+.product_3:hover .button_see_product_3
+  display: block
+.product_4:hover .button_see_product_4
+  display: block
 
 .sale
   position: absolute
@@ -239,50 +265,64 @@ html, body
    transform: rotate(-33deg)
 
 .button_see_product_1
+  display: none
   position: absolute
   border: none
   width: 180px
   height: 45px
   background-color: #e1bc62
-  margin-top: 474px
-  margin-left: -223px
+  margin-top: -196px
+  margin-left: 63px
+  &:hover
+   background-color: #898989
   &_text
    color: #ffffff
    font-size: 14px
    font-weight: 700
 .button_see_product_2
+  display: none
   position: absolute
   border: none
   width: 180px
   height: 45px
   background-color: #e1bc62
-  margin-top: 148px
-  margin-left: -336px
+  margin-top: -204px
+  margin-left: 219px
+  &:hover
+   background-color: #898989
 .button_see_product_3
+  display: none
   position: absolute
   border: none
   width: 180px
   height: 45px
   background-color: #e1bc62
-  margin-top: 148px
-  margin-left: -239px
+  margin-top: -190px
+  margin-left: 55px
+  &:hover
+   background-color: #898989
 .button_see_product_4
+  display: none
   position: absolute
   border: none
   width: 180px
   height: 45px
   background-color: #e1bc62
-  margin-top: 148px
-  margin-left: -223px
+  margin-top: -162px
+  margin-left: 60px
+  &:hover
+   background-color: #898989
 .button_see_product_5
+  display: none
   position: absolute
   border: none
   width: 180px
   height: 45px
   background-color: #e1bc62
-  margin-top: 148px
-  margin-left: -376px
-
+  margin-top: -151px
+  margin-left: 205px
+  &:hover
+   background-color: #898989
 
 footer
   height: 200px
