@@ -247,6 +247,120 @@ html, body {
   font-weight: 700;
 }
 
+.main_line {
+  width: 1181px;
+  height: 5px;
+  background-color: #e1bc62;
+  margin-bottom: 20px;
+}
+
+.main_picture_content {
+  display: grid;
+  grid-template-columns: 290px 290px 290px 290px;
+  grid-template-rows: 362px 297px;
+  grid-gap: 18px;
+  justify-content: center;
+}
+
+.main_picture_1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.main_picture_2 {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.main_picture_3 {
+  grid-row-start: 1;
+  grid-column-start: 4;
+}
+.main_picture_4 {
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+.main_picture_5 {
+  grid-row-start: 2;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.sale {
+  position: absolute;
+  z-index: 2;
+  width: 59px;
+  height: 38px;
+  margin-top: -367px;
+}
+.sale_txt {
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 400;
+  margin-top: -359px;
+  position: absolute;
+  letter-spacing: 6px;
+  z-index: 3;
+  transform: rotate(-33deg);
+}
+
+.button_see_product_1 {
+  position: absolute;
+  border: none;
+  width: 180px;
+  height: 45px;
+  background-color: #e1bc62;
+  margin-top: 474px;
+  margin-left: -223px;
+}
+.button_see_product_1_text {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.button_see_product_2 {
+  position: absolute;
+  border: none;
+  width: 180px;
+  height: 45px;
+  background-color: #e1bc62;
+  margin-top: 148px;
+  margin-left: -336px;
+}
+
+.button_see_product_3 {
+  position: absolute;
+  border: none;
+  width: 180px;
+  height: 45px;
+  background-color: #e1bc62;
+  margin-top: 148px;
+  margin-left: -239px;
+}
+
+.button_see_product_4 {
+  position: absolute;
+  border: none;
+  width: 180px;
+  height: 45px;
+  background-color: #e1bc62;
+  margin-top: 148px;
+  margin-left: -223px;
+}
+
+.button_see_product_5 {
+  position: absolute;
+  border: none;
+  width: 180px;
+  height: 45px;
+  background-color: #e1bc62;
+  margin-top: 148px;
+  margin-left: -376px;
+}
+
 footer {
   height: 200px;
   background-color: pink;
